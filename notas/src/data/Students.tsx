@@ -1,32 +1,34 @@
-const students = [
+import { StudentsTypes } from "@/types/StudentsTypes"
+
+export const students: StudentsTypes[] = [
   {
     id: 1,
     active: true,
-    name: 'Christian Buehner',
-    email: 'chris_buenergy@gmail.com',
-    avatar: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    name: 'Fulano de Tal',
+    email: 'fulano@escola.com.br',
+    avatar: 'https://images.unsplash.com/photo-1547037579-f0fc020ac3be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJvc3RvfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     grade1: 7.3,
     grade2: 8.1
-  },
-  {
+},
+{
     id: 2,
     active: true,
-    name: 'Jonas Kakaroto',
-    email: 'jonas.k17@hotmail.com',
-    avatar: 'https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    name: 'Ciclano Silva',
+    email: 'ciclano.silva@escola.com.br',
+    avatar: 'https://images.unsplash.com/photo-1601233749202-95d04d5b3c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHJvc3RvfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     grade1: 2.9,
     grade2: 8.7
-  },
-  {
+},
+{
     id: 3,
     active: false,
-    name: 'Irene Strong',
-    email: 'strong@yahoo.com.br',
-    avatar: 'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    name: 'Beltrano Matheus',
+    email: 'beltrano.matheus@escola.com.br',
+    avatar: 'https://images.unsplash.com/photo-1474176857210-7287d38d27c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHJvc3RvfGVufDB8MHwwfHx8Mg%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     grade1: 8.3,
     grade2: 6.4
-  },
-  {
+},
+{
     id: 4,
     active: true,
     name: 'Zuflano Caxias',
